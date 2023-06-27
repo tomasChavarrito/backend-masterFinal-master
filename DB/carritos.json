@@ -1,0 +1,26 @@
+[
+    {
+        "timestamp": "26/10/2022 20:56:52",
+        "products": [],
+        "clientId": "null",
+        "id": "1"
+    },
+    {
+        "timestamp": "26/10/2022 21:03:44",
+        "products": [],
+        "clientId": "6359c10b916c230888f9b7ef",
+        "id": "2"
+    },
+    {
+        "timestamp": "27/10/2022 17:19:06",
+        "products": [],
+        "clientId": "635ae6e1e658b7b27c930a29",
+        "id": 3
+    },
+    {
+        "timestamp": "27/6/2023 17:27:56",
+        "products": [],
+        "clientId": "649b3799e8edf97195e9e706",
+        "id": "4"
+    }
+]

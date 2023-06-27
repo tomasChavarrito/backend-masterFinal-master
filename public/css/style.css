@@ -1,0 +1,6 @@
+.avatarImg{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    border: 2px solid black;
+}

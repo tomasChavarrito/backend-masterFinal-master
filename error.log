@@ -1,0 +1,140 @@
+[2022-08-31T19:20:20.230] [ERROR] default - A 'From' phone number is required.
+[2022-10-26T20:21:48.282] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-10-26T20:23:06.983] [ERROR] default - username is required
+[2022-10-26T20:26:50.194] [ERROR] default - username is required
+[2022-10-26T20:31:38.959] [ERROR] default - username is required
+[2022-10-26T21:08:51.751] [ERROR] default - username is required
+[2022-10-26T21:09:26.591] [ERROR] default - username is required
+[2022-10-26T21:09:39.351] [ERROR] default - username is required
+[2022-10-26T21:16:51.740] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-10-26T21:22:49.819] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Fran\Downloads\backend-masterquisa final\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-10-26T21:23:09.166] [ERROR] default - username is required
+[2022-10-26T21:23:37.523] [ERROR] default - username is required
+[2022-10-26T22:01:41.743] [ERROR] default - username is required
+[2022-10-27T17:15:29.779] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-10-27T17:15:44.104] [ERROR] default - username is required
+[2022-10-27T17:15:44.590] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-10-27T17:16:02.972] [ERROR] default - username is required
+[2022-10-27T17:16:03.433] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-10-27T17:17:56.208] [ERROR] default - username is required
+[2022-10-27T17:17:56.680] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Fran\Downloads\backend-masterquisa final - copia\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2023-06-27T16:25:13.898] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2023-06-27T17:35:51.093] [ERROR] default - username is required
+[2023-06-27T17:35:51.457] [ERROR] default - Error: Missing credentials for "LOGIN"
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection.login (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:441:38)
+    at C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:211:17)
+    at Object.onceWrapper (node:events:639:28)
+    at SMTPConnection.emit (node:events:520:28)
+    at SMTPConnection._actionEHLO (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:1322:14)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\backend-masterFinal-master\node_modules\nodemailer\lib\smtp-connection\index.js:191:44) {
+  code: 'EAUTH',
+  command: 'API'
+}

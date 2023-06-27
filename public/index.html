@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>BackendShop</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#!">BackendShop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <div class="d-flex">
+            <button
+              class="btn btn-outline-light"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#cartCanvas"
+              aria-controls="cartCanvas"
+            >
+              <i class="bi-cart-fill me-1"></i>
+              Cart
+              <span
+                class="badge bg-dark text-white ms-1 rounded-pill"
+                id="cartItemCount"
+                >0</span
+              >
+            </button>
+
+            <button
+              class="btn btn-outline-light"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#profileCanvas"
+              aria-controls="profileCanvas"
+            >
+              <i class="bi bi-person-circle"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header Iniciar Admin-->
+    <div class="container-fluid bg-secondary" id="iniciarAdmin">
+      <form class="row justify-content-center" id="formIniciarAdmin">
+        <div class="mb-3 col-auto d-flex flex-column">
+          <label for="pass" class="form-label text-light"
+            >Contraseña de administrador</label
+          >
+          <input type="password" class="form-control" name="pass" required />
+          <span class="form-text infoPass text-warning"></span>
+          <button type="submit" class="btn btn-dark mt-2">Enviar</button>
+        </div>
+      </form>
+    </div>
+    <!-- Header Agregar Producto-->
+    <header class="bg-secondary py-5" id="agregarProducto">
+      <div class="container px-4 px-lg-5 my-5">
+        <form
+          class="row justify-content-center bg-light p-4"
+          id="formCargarProducto"
+        >
+          <h4>Nuevo Producto</h4>
+          <div class="mb-3 col-auto">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="nombre" required />
+          </div>
+          <div class="mb-3 col-auto">
+            <label for="precio" class="form-label">Precio</label>
+            <input type="number" class="form-control" name="precio" required />
+          </div>
+          <div class="mb-3 col-auto">
+            <label for="stock" class="form-label">Stock</label>
+            <input type="number" class="form-control" name="stock" required />
+          </div>
+          <div class="mb-3 col-auto">
+            <label for="stock" class="form-label">Codigo</label>
+            <input type="number" class="form-control" name="code" required />
+          </div>
+          <div class="mb-3 col-7">
+            <label for="description" class="form-label">Descripcion</label>
+            <input
+              type="text"
+              class="form-control"
+              name="description"
+              required
+            />
+          </div>
+          <div class="mb-3 col-7">
+            <label for="imagen" class="form-label">URL de imagen</label>
+            <input type="text" class="form-control" name="imagen" required />
+          </div>
+          <button type="submit" class="btn btn-primary">Cargar</button>
+        </form>
+      </div>
+    </header>
+    <!-- Section Contenedor Productos-->
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div
+          class="row gx-4 gx-lg-5 justify-content-center"
+          id="contenedorProductos"
+        ></div>
+      </div>
+    </section>
+    <!-- Offcanvas Carrito -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="cartCanvas"
+      aria-labelledby="cartCanvasLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="cartCanvasLabel">
+          Cart #<span id="cartId"></span>
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body" id="contenedorProductosCarrito"></div>
+      <button class="btn btn-success btnComprarCarrito">
+        Finalizar Compra
+      </button>
+    </div>
+    <!-- Offcanvas Perfil -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="profileCanvas"
+      aria-labelledby="profileCanvasLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="profileCanvasLabel">Perfil</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body" id="contenedorPerfil"></div>
+    </div>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; BackendShop 2023
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+  </body>
+</html>

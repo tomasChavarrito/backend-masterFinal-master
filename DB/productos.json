@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Red Label - Johnnie Walker",
+        "price": "7300",
+        "description": "Whisky Escoces (12 años de añejamiento) - 750ml",
+        "photoUrl": "https://enpiewines.com.ar/wp-content/uploads/2020/09/johnnie-walker-red-label-whisky-1000-ml1-a71b6a5d752107d1ce15934374689447-640-0.jpg",
+        "stock": "4",
+        "code": "123",
+        "timestamp": "27/6/2023 17:08:35",
+        "id": "1"
+    },
+    {
+        "name": "Black Label - Johnnie Walker",
+        "price": "13500",
+        "description": "Whisky Escoces (12 años de añejamiento) - 750ml",
+        "photoUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/835/701/products/johnnie-walker-black-label-whisky-750ml1-8d12e1cdb04a5c406216660988171097-640-0.jpg",
+        "stock": "44",
+        "code": "312",
+        "timestamp": "27/6/2023 17:08:43",
+        "id": "2"
+    },
+    {
+        "name": "Double Black Label - Johnnie Walker",
+        "price": "16000",
+        "description": "Whisky Escoces (12 años de añejamiento) - 750ml",
+        "photoUrl": "https://vinotecamasis.com.ar/wp-content/uploads/2021/11/Whisky-Johnnie-Walker-Double-Black-750-ml.png",
+        "stock": "23",
+        "code": "231",
+        "timestamp": "27/6/2023 17:08:55",
+        "id": "3"
+    },
+    {
+        "name": "Gold Label - Johnnie Walker",
+        "price": "23500",
+        "description": "Whisky Escoces (18 años de añejamiento) - 750ml",
+        "photoUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/835/701/products/johnnie-walker-gold-reserve-whisky-750ml1-047d515172ce32f1b016660986004839-640-0.jpg",
+        "stock": "45",
+        "code": "44",
+        "timestamp": "27/6/2023 17:09:27",
+        "id": "4"
+    },
+    {
+        "name": "Green Label - Johnnie Walker",
+        "price": "40000",
+        "description": "Whisky Escoces (15 años de añejamiento) - 750ml",
+        "photoUrl": "https://static.wixstatic.com/media/d2b1c5_2a4c824005ea49f7a15f17fc455edb59~mv2.png/v1/fill/w_800,h_800,al_c/d2b1c5_2a4c824005ea49f7a15f17fc455edb59~mv2.png",
+        "stock": "20",
+        "code": "555",
+        "timestamp": "27/6/2023 17:12:06",
+        "id": 5
+    },
+    {
+        "name": "Platinum Label - Johnnie Walker",
+        "price": "70000",
+        "description": "Whisky Escoces (18 años de añejamiento) - 750ml",
+        "photoUrl": "https://ameroshop.com.ar/images/stories/virtuemart/product/johnnie-walker-platinum%20label.jpg",
+        "stock": "12",
+        "code": "666",
+        "timestamp": "27/6/2023 17:14:19",
+        "id": 6
+    },
+    {
+        "name": "Blue Label - Johnnie Walker",
+        "price": "100000",
+        "description": "Whisky Escoces (21 a 50 años de añejamiento) - 750ml",
+        "photoUrl": "https://cepadevinos.com/wp-content/uploads/2017/07/Johnnie_Walker_Blue_Label_750cc._krrtuo.jpg",
+        "stock": "2",
+        "code": "777",
+        "timestamp": "27/6/2023 17:16:16",
+        "id": "7"
+    },
+    {
+        "name": "Johnnie Walker Collection",
+        "price": "55000",
+        "description": "Incluye  Black Label, Gold Label, Platinum Label y Blue Label - 4 x 200ml",
+        "photoUrl": "https://http2.mlstatic.com/D_NQ_NP_792199-MLA49015798793_022022-O.webp",
+        "stock": "8",
+        "code": "567",
+        "timestamp": "27/6/2023 17:20:10",
+        "id": 8
+    },
+    {
+        "name": "Red Label 3L - Johnnie Walker",
+        "price": "75000",
+        "description": " Edición especial de 3 Litros",
+        "photoUrl": "https://d2r9epyceweg5n.cloudfront.net/stores/118/622/products/johnnie-walker-red-label-3-litros-01-673215119fb1f72d4a16324374909736-1024-1024.jpeg",
+        "stock": "3",
+        "code": "568",
+        "timestamp": "27/6/2023 17:24:18",
+        "id": "9"
+    },
+    {
+        "name": "Black Label 3L - Johnnie Walker",
+        "price": "80000",
+        "description": " Edición especial de 3 Litros",
+        "photoUrl": "https://d2r9epyceweg5n.cloudfront.net/stores/118/622/products/d_nq_np_744988-mla40812140381_022020-o1-ce6df979eda2a02f9716324371062739-640-0.jpeg",
+        "stock": "3",
+        "code": "569",
+        "timestamp": "27/6/2023 17:24:29",
+        "id": "10"
+    },
+    {
+        "name": "Vaso Johnnie Walker",
+        "price": "7000",
+        "description": "Vaso para tomar Whisky",
+        "photoUrl": "https://d2r9epyceweg5n.cloudfront.net/stores/001/069/568/products/johnnie-walker-vasoooo1-f3ed87067e247b2cb716591002266619-640-0.jpg",
+        "stock": "200",
+        "code": "570",
+        "timestamp": "27/6/2023 17:26:21",
+        "id": "11"
+    }
+]
